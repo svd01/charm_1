@@ -1,0 +1,42 @@
+docker0   Link encap:Ethernet  HWaddr 02:42:d5:01:81:2e  
+          inet addr:172.17.0.1  Bcast:0.0.0.0  Mask:255.255.0.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+enp0s25   Link encap:Ethernet  HWaddr 28:d2:44:31:02:2f  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:20 Память:e0600000-e0620000 
+
+lo        Link encap:Локальная петля (Loopback)  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:85117 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:85117 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:5522808 (5.5 MB)  TX bytes:5522808 (5.5 MB)
+
+virbr0    Link encap:Ethernet  HWaddr 00:00:00:00:00:00  
+          inet addr:192.168.122.1  Bcast:192.168.122.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+wlp3s0    Link encap:Ethernet  HWaddr 5c:51:4f:80:42:9c  
+          inet addr:192.168.1.136  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::1d34:b4c9:1e45:4ef3/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7036922 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3250227 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:9625592001 (9.6 GB)  TX bytes:397977346 (397.9 MB)
+
